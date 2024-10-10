@@ -1,2 +1,3 @@
-# ia-analisar-score
-Inteligência artificial desenvolvida para analisar score de crédito.
+# Inteligência Atificial desenvolvida para analisar score de crédito
+
+Este notebook realiza o pré-processamento de dados financeiros de clientes, transformando colunas categóricas em valores numéricos para uso em modelos de aprendizado de máquina. Utiliza-se o "LabelEncoder", da biblioteca "scikit-learn", para converter variáveis como profissão e comportamento de pagamento em números, exceto a coluna "score_credito", que representa o alvo da análise. Também inclui uma verificação para garantir que todas as colunas foram adequadamente transformadas. Esse processo facilita a preparação dos dados para futuras etapas de modelagem preditiva, como classificação ou regressão. O objetivo é transformar os dados em um formato adequado para análises mais avançadas e algoritmos preditivos. O notebook é ideal para projetos que envolvem dados financeiros e a aplicação de técnicas de machine learning.
